@@ -104,6 +104,8 @@ input[type=submit] {
   color: #7994a7;
   font-size: 13px;
   font-weight: 700;
+
+  border-radius: 0;
   
   border-style: solid;
   border-color:#7994a7;
@@ -117,7 +119,7 @@ input[type=submit] {
   -webkit-border-color:#7994a7;
   -webkit-border-width: thin;
 
-  padding-top: 10px;
+  padding-top: 10px !important;
   padding-bottom: 10px;
 }
 
