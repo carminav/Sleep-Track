@@ -50,6 +50,7 @@ h1 {
   border-style: solid;
   border-color: #e0e3e5;
   border-width: thin; 
+  border-radius: 7px;
 }
 
 #login-box div {
@@ -58,10 +59,7 @@ h1 {
   width: 80%;
   padding: 8%;
 
-  /*border-style: solid;
-  border-color: #e0e3e5;
-  border-width: thin; */
-
+  
 }
 
 /*Log in text*/
@@ -83,31 +81,31 @@ input[type=text], input[type=password] {
   margin-bottom: 3%;
 }
 
-#btn-submit {
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
+form {
+  width: 100%;
 }
-#btn-submit button{
+
+input[type=submit] {
+margin-left: auto;
+  margin-right: auto;
+  width: 100%;
   background-color: #fdfdfd;
   color: #7994a7;
   font-size: 14px;
   font-weight: 700;
-  width: 100%;
   border-style: solid;
   border-color: #e0e3e5;
   border-width: thin;
   padding-top: 10px;
   padding-bottom: 10px;
-  margin-left: auto; 
-  margin-right: auto;
 }
 
-#btn-submit button:hover {
+input[type=submit]:hover {
  background-color:#7994a7;
  color:  #fdfdfd;
  border-color:#7994a7;
 }
+
 
 footer {
   position: absolute;
