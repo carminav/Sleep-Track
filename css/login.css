@@ -96,10 +96,10 @@ form {
 }
 
 div.ui-btn, input[type=submit] {
-margin-left: auto;
+  margin-left: auto;
   margin-right: auto;
   width: 100%;
-  background-color: #f4f4f4;
+  background-color: #f4f4f4 !important;
   color: #7994a7;
   font-size: 13px;
   font-weight: 700;
