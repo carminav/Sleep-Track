@@ -1,0 +1,41 @@
+/* For smaller screens like tablets */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400);
+@import url(http://fonts.googleapis.com/css?family=Lato:200,300,400);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:200,400,300,700);
+
+
+#content-wrapper {
+  width: 100%;
+}
+
+
+/*"Access your account" text */
+#content-wrapper h2 {
+  font-size: 50%;
+  font-weight: 300;
+  text-align: center;
+}
+
+#login-box {
+  width: 50%;
+}
+
+#login-box div {
+  
+  width: 95%;
+  padding: 5% 2%;
+  
+}
+
+footer {
+  height: 40px;
+}
+
+#wrapper {
+  min-height: 100%;
+}
+
+
+
+
