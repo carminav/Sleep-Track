@@ -19,14 +19,11 @@ h1 {
 }
 
 #content-wrapper {
-  width: 40%;
+  width: 500px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
 
-  /*border-style: solid;
-  border-color: #e0e3e5;
-  border-width: thin;   */
 }
 
 #header {
@@ -44,10 +41,6 @@ h1 {
   font-size: 40px;
   font-weight: 300;
   text-align: center;
-}
-
-#content-wrapper {
-
 }
 
 #login-box {
@@ -111,8 +104,9 @@ input[type=text], input[type=password] {
 }
 
 #btn-submit button:hover {
- background-color:  #7994a7;
+ background-color:#7994a7;
  color:  #fdfdfd;
+ border-color:#7994a7;
 }
 
 footer {
