@@ -1,0 +1,42 @@
+<!Doctype html>
+
+<html>
+  <head>
+        <title>Sleep Track</title>
+	<meta charset="utf-8">
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"/>
+
+	<!--<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>-->
+
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/login.css"/>
+  <head>
+  <body>
+    <div id="wrapper"/>
+    <div id="header"/>
+        <div id="header-logo">
+	   	<span class="fa fa-columns fa-2x"></span>
+	   	<h1>Sleep Track</h1>
+	</div>
+    </div>
+    <div id="content-wrapper">
+        <h2>Access your account</h2>	
+	<div id="login-box">
+	   <div>
+	       <h3>Log in</h3>
+	       <form>
+		       <input type="text" name="username" placeholder="Username"><br>
+		       <input type="password" name="password" placeholder="Password"><br>
+	       </form>
+	       <a id="btn-submit" href="#"><button type="button">Submit</button></a>
+          		
+	   </div>
+	</div>
+     </div>
+    <footer>
+	    <p>&copy; 2014</p>
+    </footer>
+    </div>
+  </body>
+</html>

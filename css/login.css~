@@ -1,0 +1,129 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400);
+@import url(http://fonts.googleapis.com/css?family=Lato:200,300,400);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:200,400,300,700);
+
+html, body {
+   margin: 0;
+   padding: 0;
+   font-family: Open Sans;
+   background-color: #fdfdfd;
+   color: #7994a7;
+}
+
+h1 {
+  font-family: Open Sans;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 20px;
+  display: inline;
+}
+
+#content-wrapper {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+
+  /*border-style: solid;
+  border-color: #e0e3e5;
+  border-width: thin;   */
+}
+
+#header {
+  width: 100%;
+  height: 50px;
+  background-color: #f4f4f4;
+}
+
+#header-logo {
+  padding: 8px 0 4px 2%;
+}
+
+/*"Access your account" text */
+#content-wrapper h2 {
+  font-size: 40px;
+  font-weight: 300;
+  text-align: center;
+}
+
+#content-wrapper {
+
+}
+
+#login-box {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-color: #e0e3e5;
+  border-width: thin; 
+}
+
+#login-box div {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  padding: 8%;
+
+  /*border-style: solid;
+  border-color: #e0e3e5;
+  border-width: thin; */
+
+}
+
+/*Log in text*/
+#login-box div h3 {
+  text-align: center;
+  margin-top: -10px;
+}
+
+#login-box div form {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input[type=text], input[type=password] {
+  font-size: 16px;
+  padding: 3%;
+  width: 94%;
+  margin-bottom: 3%;
+}
+
+#btn-submit {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+#btn-submit button{
+  background-color: #fdfdfd;
+  color: #7994a7;
+  font-size: 14px;
+  font-weight: 700;
+  width: 100%;
+  border-style: solid;
+  border-color: #e0e3e5;
+  border-width: thin;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  font-size: 20px;
+}
+
+#wrapper {
+  min-height: 100%;
+  
+}
+
+
+
