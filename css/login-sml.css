@@ -42,8 +42,8 @@
 
 input[type=text], input[type=password] {
   font-size: 30px;
-  font-weight: 300;
-  padding: 7% 4%;
+  font-weight: 250;
+  padding: 5% 4%;
   width: 91%;
   margin-bottom: 4%;
   border-style: solid;
