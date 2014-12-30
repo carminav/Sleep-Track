@@ -96,28 +96,28 @@ form {
 }
 
 div.ui-btn, input[type=submit] {
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: 100% !important;
   background-color: #f4f4f4 !important;
-  color: #7994a7;
-  font-size: 13px;
-  font-weight: 700;
+  color: #7994a7 !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
   
-  border-style: solid;
-  border-color:#7994a7;
-  border-width: thin;
+  border-style: solid !important;
+  border-color:#7994a7 !important;
+  border-width: thin !important;
 
-  -moz-border-style: solid;
-  -moz-border-color:#7994a7;
-  -moz-border-width: thin;
+  -moz-border-style: solid !important;
+  -moz-border-color:#7994a7 !important;
+  -moz-border-width: thin !important;
 
-  -webkit-border-style: solid;
-  -webkit-border-color:#7994a7;
-  -webkit-border-width: thin;
+  -webkit-border-style: solid !important;
+  -webkit-border-color:#7994a7 !important;
+  -webkit-border-width: thin !important;
 
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
 }
 
 input[type=submit]:hover {
