@@ -30,7 +30,6 @@
 		       <input type="password" name="password" placeholder="Password"><br>
 		       <input type="submit" name="submit-button" value="Sign in"><br>
 	       </form>
-	       <div id="btn-submit"><a href="#"><button type="button">Submit</button></a></div>
           		
 	   </div>
 	</div>

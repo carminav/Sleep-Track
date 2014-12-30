@@ -79,7 +79,11 @@ input[type=text], input[type=password] {
   padding: 3%;
   width: 94%;
   margin-bottom: 3%;
+  border-style: solid;
+  border-color: #e0e3e5;
+  border-width: thin;
 }
+
 
 form {
   width: 100%;
