@@ -24,17 +24,20 @@
         <h2>Access your account</h2>	
 	<div id="login-box">
 	   <div>
+        	<div id="img-avatar"><img src="img/avatar.png"/></div>
 	       <form>
 		       <input type="text" name="username" placeholder="Username"><br>
 		       <input type="password" name="password" placeholder="Password"><br>
 		       <input type="submit" name="submit-button" value="Sign in"><br>
 	       </form>
+	       
           		
 	   </div>
 	</div>
+	<div id="link-create-account"> <a href="#">Create an account</a></div>
      </div>
     <footer>
-	    <p>&copy; 2014</p>
+	    <p>&copy; Alex is pretty cool 2014</p>
     </footer>
     </div>
   </body>

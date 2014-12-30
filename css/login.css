@@ -19,11 +19,15 @@ h1 {
 }
 
 #content-wrapper {
-  width: 500px;
+  width: 470px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
 
+}
+
+#wrapper {
+  width: 100%;
 }
 
 #header {
@@ -45,6 +49,7 @@ h1 {
 
 #login-box {
   width: 80%;
+  margin-top: -20px;
   margin-left: auto;
   margin-right: auto;
   border-style: solid;
@@ -54,6 +59,7 @@ h1 {
 }
 
 #login-box div {
+  
   margin-left: auto;
   margin-right: auto;
   width: 80%;
@@ -65,7 +71,7 @@ h1 {
 /*Log in text*/
 #login-box div h3 {
   text-align: center;
-  margin-top: -10px;
+  margin-top: -20px;
 }
 
 #login-box div form {
@@ -93,21 +99,22 @@ input[type=submit] {
 margin-left: auto;
   margin-right: auto;
   width: 100%;
-  background-color: #fdfdfd;
+  background-color: #f4f4f4;
   color: #7994a7;
   font-size: 14px;
   font-weight: 700;
   border-style: solid;
-  border-color: #e0e3e5;
+  border-color:#7994a7;
   border-width: thin;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
 input[type=submit]:hover {
- background-color:#7994a7;
+ background-color: #7994a7;
  color:  #fdfdfd;
  border-color:#7994a7;
+ cursor: pointer;
 }
 
 
@@ -125,5 +132,24 @@ footer {
   min-height: 100%;
 }
 
+#link-create-account {
+  width: 100%;
+  text-decoration: none;
+  text-align: center;
+  margin-left; auto;
+  margin-right: auto;
+  padding: 10px 0;
+  font-size: 0.85em;
+  font-weight: 400;
+}
+
+#link-create-account a, #link-create-account:visited {
+  text-decoration: none;
+  color:  #7994a7;
+}
+
+#link-create-account a:hover {
+  text-decoration: underline;
+}
 
 
