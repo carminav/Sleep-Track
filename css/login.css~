@@ -42,14 +42,13 @@ h1 {
 
 /*"Access your account" text */
 #content-wrapper h2 {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 300;
   text-align: center;
 }
 
 #login-box {
   width: 80%;
-  margin-top: -20px;
   margin-left: auto;
   margin-right: auto;
   border-style: solid;
@@ -62,7 +61,7 @@ h1 {
   
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
+  width: 85%;
   padding: 8%;
 
   
@@ -81,13 +80,15 @@ h1 {
 }
 
 input[type=text], input[type=password] {
-  font-size: 16px;
-  padding: 3%;
-  width: 94%;
-  margin-bottom: 3%;
+  font-size: 18px;
+  font-weight: 300;
+  padding: 4% 7%;
+  width: 86%;
+  margin-bottom: 5%;
   border-style: solid;
   border-color: #e0e3e5;
   border-width: thin;
+  
 }
 
 
@@ -101,7 +102,7 @@ margin-left: auto;
   width: 100%;
   background-color: #f4f4f4;
   color: #7994a7;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 700;
   border-style: solid;
   border-color:#7994a7;
@@ -111,7 +112,7 @@ margin-left: auto;
 }
 
 input[type=submit]:hover {
- background-color:;
+ background-color: #7994a7;
  color:  #fdfdfd;
  border-color:#7994a7;
  cursor: pointer;
