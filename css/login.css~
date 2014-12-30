@@ -103,9 +103,19 @@ margin-left: auto;
   color: #7994a7;
   font-size: 13px;
   font-weight: 700;
+  
   border-style: solid;
   border-color:#7994a7;
   border-width: thin;
+
+  -moz-border-style: solid;
+  -moz-border-color:#7994a7;
+  -moz-border-width: thin;
+
+  -webkit-border-style: solid;
+  -webkit-border-color:#7994a7;
+  -webkit-border-width: thin;
+
   padding-top: 10px;
   padding-bottom: 10px;
 }
