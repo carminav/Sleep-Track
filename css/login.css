@@ -8,6 +8,7 @@ html, body {
    font-family: Open Sans;
    background-color: #fdfdfd;
    color: #7994a7;
+   height: 100%;
 }
 
 h1 {
@@ -23,6 +24,7 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
+  padding-bottom: 50px;
 
 }
 
@@ -101,9 +103,19 @@ margin-left: auto;
   color: #7994a7;
   font-size: 13px;
   font-weight: 700;
+  
   border-style: solid;
   border-color:#7994a7;
   border-width: thin;
+
+  -moz-border-style: solid;
+  -moz-border-color:#7994a7;
+  -moz-border-width: thin;
+
+  -webkit-border-style: solid;
+  -webkit-border-color:#7994a7;
+  -webkit-border-width: thin;
+
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -128,6 +140,7 @@ footer {
 
 #wrapper {
   min-height: 100%;
+  position: relative;
 }
 
 #link-create-account {
@@ -150,16 +163,4 @@ footer {
   text-decoration: underline;
 }
 
-/*@media only screen and (max-width: 632px) {
-
-html, body {
-  font-family: Arial;
-}
-
-#login-box {
-   
-  background-color: #FF0000;
-}
-
-}*/
 

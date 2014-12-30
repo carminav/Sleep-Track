@@ -12,7 +12,7 @@
 
 /*"Access your account" text */
 #content-wrapper h2 {
-  font-size: 50%;
+  font-size: 30px;
   font-weight: 300;
   text-align: center;
 }
@@ -28,14 +28,21 @@
   
 }
 
+#content-wrapper {
+  padding-bottom: 30px;
+}
+
 footer {
-  height: 40px;
+  height: 30px;
 }
 
 #wrapper {
   min-height: 100%;
+  position: relative;
 }
 
-
+#link-create-account a{
+  padding: 10px 0 25% 0;
+}
 
 
